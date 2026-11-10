@@ -122,6 +122,10 @@ git clone --depth 1 https://github.com/anhao/ai-pose-gallery-zh.git
 
 ---
 
+## 手动启动
+
+Windows 双击 `launch.cmd`；Linux 在终端运行 `./launch.sh`。默认不会自启动，按 Enter / Ctrl+C 或关闭启动器终端即可停止服务（只关闭浏览器标签页不会停止）。首次依赖安装与验证步骤见 [手动启动说明](docs/manual-launcher.md)。
+
 ## 技术栈与目录结构
 
 - **前端框架**：React 19.3 + TypeScript 7.0 + Vite 8 (Rolldown)
